@@ -4,6 +4,8 @@
 *.tfstate.backup
 .terraform.lock.hcl
 
-# Environment files containing secrets
+# Environment files
+config/config.env
+config/variables.tfvars
 *.ddl
 tables.txt
