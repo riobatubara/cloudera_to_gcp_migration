@@ -5,7 +5,5 @@
 .terraform.lock.hcl
 
 # Environment files containing secrets
-config/config.env
-config/variables.tfvars
 *.ddl
 tables.txt
