@@ -1,0 +1,11 @@
+# Local Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Environment files containing secrets
+config/config.env
+config/variables.tfvars
+*.ddl
+tables.txt
